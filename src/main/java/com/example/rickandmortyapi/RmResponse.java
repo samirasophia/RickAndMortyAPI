@@ -1,2 +1,7 @@
-package com.example.rickandmortyapi;public class SbbReponse {
+package com.example.rickandmortyapi;
+
+import java.util.List;
+
+public record RmResponse(int total_count, List<RmResult> results){
 }
+
